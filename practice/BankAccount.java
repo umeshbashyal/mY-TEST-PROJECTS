@@ -15,10 +15,11 @@ public class BankAccount {
 
 
     public void setbal(int balance){
-
+        this.rest=balance
         this.balance=balance;
     }
     public int getBalance(){
+
         return balance;
     }
 
